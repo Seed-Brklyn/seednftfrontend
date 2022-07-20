@@ -31,10 +31,10 @@ const CollectionDetails = ({
 
     return (
         <>
-            <div className="container glo" style={{backgroundColor: 'black', borderRadius:'25px', marginLeft: '100px', padding:'20px', boxShadow:'10px 10px grey', width: '100%'}}>
+            <div className="">
                 <div style={{ flex: '1 1 auto', color:'white' ,alignItems: 'center'}}>
                     <div style={{ padding: '24px 24px 24px 0' }}>
-                    <p style={{ margin: '12px 0 24px', fontSize: '72px', fontWeight: 'bold' }}>
+                    <p style={{ margin: '12px 0 24px', fontSize: '24px', fontWeight: 'bold' }}>
                         {totalMinted} minted so far!
                     </p>
 

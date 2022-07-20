@@ -9,7 +9,6 @@ export type NFTCardProps = {
 
 
 const NFTCard = ({ isMinted, mintData}: NFTCardProps) => {
-
     return (
     <div className='glo' style={{ flex: '0 0 auto', boxShadow:'10px 10px grey', borderRadius: '25px', backgroundColor:'white'}}>
         <FlipCard>

@@ -56,25 +56,25 @@ button[data-mint-loading="true"] {
 }
 
 button[data-mint-started="true"] {
-  background-image: linear-gradient(270deg, #FF6257, #FF5CA0);
+  background-image: linear-gradient(270deg, darkgreen, black);
   position: relative;
 }
 
-  button[data-mint-started="true"]::after {
-    animation-name: pulse;
-    animation-duration: 500ms;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    background-color: #FF6257;
-    border-radius: inherit;
-    bottom: 0;
-    content: ' ';
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
+button[data-mint-started="true"]::after {
+  animation-name: pulse;
+  animation-duration: 500ms;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  background-color: grey;
+  border-radius: inherit;
+  bottom: 0;
+  content: ' ';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 
 button[data-mint-done="true"] {
    opacity: 0;
@@ -91,7 +91,7 @@ a { color: inherit }
 }
 
 .sitebg {
-   background-image: linear-gradient(180deg,  black 10%, grey 65%, #637A60 80%, green 100%);
+  background-image: url('/seed-soil.jpeg');
 }
 
 .glo {
@@ -102,5 +102,14 @@ a { color: inherit }
     border-width: '1px';
     border-style: 'solid';
     border-color: 'lightgrey';
-    background-color:lightgreen,
+    background-color:lightgreen;
+}
+
+.detailsBox {
+  background-color: black;
+  border-radius: '25px';
+  padding:'20px';
+  margin-left: '100px';
+  box-shadow:'10px 10px grey';
+  width: '100%';
 }
