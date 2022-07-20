@@ -72,20 +72,20 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <div className="container sitebg">
+      <div className="sitebg">
         <a style={{position: 'absolute', top:'20px'}} href="https://seedbrklyn.com">
           <img src="/SeedNFT.png" alt="Lettering fonts" />
         </a>
-        <div className="page" >
+        <div className="page">
           <div style={{ position: 'absolute', top: '2em', right: '10em' }}>
             <ConnectButton />
           </div>
-          <div style={{ marginLeft:'10px' }}>
+          <div style={{ position: 'absolute', top:'200px', left: '25px'}}>
             <NFTCard
               isMinted={isMinted}
               mintData={mintData} />
           </div>
-          <div style={{ marginRight:'10px' }}>
+          <div style={{position: 'absolute', top:'200px', marginRight:'10px' }}>
             <CollectionDetails
                 isMintLoading={isMintLoading}
                 isMintStarted={isMintStarted}
